@@ -78,10 +78,7 @@ button#three {
 button:hover {
   border: 2px solid white;
   background-color: rgba(255, 255, 255, 0);
-}
-
-button:hover label {
-  color: white;
+  color: white !important;
 }
 
 @media (max-width: 380px) {
